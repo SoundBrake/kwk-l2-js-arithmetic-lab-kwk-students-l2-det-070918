@@ -14,7 +14,7 @@ var ageIsValid = Number.isInteger()
 
 var randomNumber = Math.random() * 20
 
-var randomInteger = randomNumber.parseInt()
+var randomInteger = Math.round(randomNumber)
 
 
 
